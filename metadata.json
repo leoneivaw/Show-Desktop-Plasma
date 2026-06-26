@@ -14,7 +14,7 @@
 		"FormFactors": [
 			"desktop"
 		],
-		"Icon": "icon",
+		"Icon": "org.kde.plasma.powershowdesktop",
 		"Id": "org.kde.plasma.powershowdesktop",
 		"License": "GPL-3.0",
 		"Name": "Power Show Desktop | Plasma",

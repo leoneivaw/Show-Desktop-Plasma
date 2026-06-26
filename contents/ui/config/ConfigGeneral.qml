@@ -33,6 +33,10 @@ LibConfig.FormKCM {
 		Kirigami.FormData.label: i18n("Display:")
 		text: i18n("Use Emoji/Icon instead of colors")
 		configKey: 'useIcon'
+		onClicked: {
+			plasmoid.configuration.useIcon = !plasmoid.configuration.useIcon;
+			plasmoid.configuration.size = plasmoid.configuration.useIcon ? 30 : 8;
+		}
 	}
 
 	QQC2.TextField {
