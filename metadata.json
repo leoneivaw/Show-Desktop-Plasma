@@ -17,8 +17,8 @@
 		"Icon": "org.kde.plasma.powershowdesktop",
 		"Id": "org.kde.plasma.powershowdesktop",
 		"License": "GPL-3.0",
-		"Name": "Power Show Desktop | Plasma",
-		"Name[pt_BR]": "Power Show Desktop | Plasma",
+		"Name": "Power Show Desktop",
+		"Name[pt_BR]": "Power Show Desktop",
 		"Version": "1.5",
 		"Website": "https://github.com/leoneivaw/power-show-desktop"
 	},
