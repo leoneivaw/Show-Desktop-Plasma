@@ -59,6 +59,11 @@ LibConfig.FormKCM {
 		from: 0
 		to: 5000
 	}
+	QQC2.Label {
+		text: i18n("Recommended cooldown: 0")
+		font: Kirigami.Theme.smallFont
+		opacity: 0.6
+	}
 
 	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Ctrl+Scroll Up:")
