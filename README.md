@@ -48,7 +48,12 @@ A maneira mais fácil de instalar é utilizando o arquivo empacotado `.plasmoid`
 Após adicionar o widget à sua barra de tarefas:
 1. Clique com o botão direito sobre ele e selecione **"Configurar Show Desktop | Plasma"**.
 2. Na aba **Geral**, você poderá escolher a cor de clique, o comando padrão e o novo **Comando e Cor do Clique Longo (Long Press)**.
+
+![Configuração Geral](images/config1.png)
+
 3. Na aba **Advanced Actions**, você tem acesso aos campos avançados para modificadores (`Ctrl`, `Shift`, `Alt`, `Middle Click`) e os comandos exclusivos da **Rolagem do Mouse (Scroll)**.
+
+![Configuração Avançada](images/Config%20advanced.png)
 
 ### Exemplo Útil para Scroll (Trocar Áreas de Trabalho)
 Experimente colar estes comandos na aba de **Advanced Actions** para trocar de Desktop usando `Ctrl + Scroll`:
