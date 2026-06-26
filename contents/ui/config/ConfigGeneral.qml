@@ -31,7 +31,7 @@ LibConfig.FormKCM {
 
 	QQC2.CheckBox {
 		Kirigami.FormData.label: i18n("Display:")
-		text: i18n("Use Emoji/Icon instead of colors")
+		text: i18n("Use Icon instead of colors")
 		checked: plasmoid.configuration.useIcon
 		onToggled: {
 			plasmoid.configuration.useIcon = checked;
@@ -40,7 +40,7 @@ LibConfig.FormKCM {
 	}
 
 	QQC2.TextField {
-		Kirigami.FormData.label: i18n("Icon / Emoji:")
+		Kirigami.FormData.label: i18n("Icon:")
 		text: plasmoid.configuration.iconName
 		onTextChanged: plasmoid.configuration.iconName = text
 		visible: plasmoid.configuration.useIcon
@@ -77,24 +77,6 @@ LibConfig.FormKCM {
 		text: i18n("Click")
 	}
 
-	LibConfig.RadioButtonGroup {
-		id: clickGroup
-		spacing: 2 * Screen.devicePixelRatio
-		Kirigami.FormData.isSection: true
-
-		QQC2.RadioButton {
-			text: i18nd("plasma_applet_org.kde.plasma.showdesktop", "Show Desktop")
-			QQC2.ButtonGroup.group: clickGroup.group
-			checked: cfg_click_action === 'showdesktop'
-			onClicked: cfg_click_action = 'showdesktop'
-		}
-		QQC2.RadioButton {
-			text: i18n("Run Command")
-			QQC2.ButtonGroup.group: clickGroup.group
-			checked: cfg_click_action === 'run_command'
-			onClicked: cfg_click_action = 'run_command'
-		}
-	}
 
 	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Click Command:")
@@ -109,6 +91,14 @@ LibConfig.FormKCM {
 	//-------------------------------------------------------
 	LibConfig.Heading {
 		text: i18n("Mouse Wheel")
+	}
+
+	LibConfig.SpinBox {
+		Kirigami.FormData.label: i18n("Scroll Cooldown:")
+		configKey: 'mousewheel_cooldown'
+		suffix: i18n("ms")
+		minimumValue: 0
+		maximumValue: 2000
 	}
 
 	LibConfig.CommandFieldWithPresets {

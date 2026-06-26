@@ -22,19 +22,19 @@ msgstr "Ações Avançadas de Clique"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
 msgid "Ctrl+Click Command:"
-msgstr "Comando Ctrl+Clique:"
+msgstr "Comando Ctrl+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click Command:"
-msgstr "Comando Clique do Meio:"
+msgstr "Comando Middle Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click Command:"
-msgstr "Comando Shift+Clique:"
+msgstr "Comando Shift+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
 msgid "Alt+Click Command:"
-msgstr "Comando Alt+Clique:"
+msgstr "Comando Alt+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
@@ -42,7 +42,7 @@ msgstr "Ações Avançadas da Roda do Mouse"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
 msgid "Ctrl+Scroll Cooldown:"
-msgstr "Intervalo de Ctrl+Rolagem:"
+msgstr "Cooldown de Ctrl+Scroll:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:133
@@ -51,11 +51,11 @@ msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:64
 msgid "Ctrl+Scroll Up:"
-msgstr "Ctrl+Rolar para Cima:"
+msgstr "Ctrl+Scroll Up:"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
 msgid "Ctrl+Scroll Down:"
-msgstr "Ctrl+Rolar para Baixo:"
+msgstr "Ctrl+Scroll Down:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
@@ -66,12 +66,12 @@ msgid "Display:"
 msgstr "Exibição:"
 
 #: contents/ui/config/ConfigGeneral.qml:34
-msgid "Use Emoji/Icon instead of colors"
-msgstr "Usar Emoji/Ícone em vez de cores"
+msgid "Use Icon instead of colors"
+msgstr "Usar Ícone em vez de cores"
 
 #: contents/ui/config/ConfigGeneral.qml:39
-msgid "Icon / Emoji:"
-msgstr "Ícone / Emoji:"
+msgid "Icon:"
+msgstr "Ícone:"
 
 #: contents/ui/config/ConfigGeneral.qml:46
 msgid "Size:"
@@ -124,11 +124,11 @@ msgstr "Roda do mouse"
 
 #: contents/ui/config/ConfigGeneral.qml:111
 msgid "Scroll Up:"
-msgstr "Rolar para cima:"
+msgstr "Scroll Up:"
 
 #: contents/ui/config/ConfigGeneral.qml:116
 msgid "Scroll Down:"
-msgstr "Rolar para baixo:"
+msgstr "Scroll Down:"
 
 #: contents/ui/config/ConfigGeneral.qml:122
 msgid "Peek"

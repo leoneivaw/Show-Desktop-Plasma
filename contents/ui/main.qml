@@ -148,6 +148,7 @@ PlasmoidItem {
 		// org.kde.plasma.volume
 		property int wheelDelta: 0
 		property real lastCtrlWheelTime: 0
+		property real lastWheelTime: 0
 		onWheel: wheel => {
 			const delta = (wheel.inverted ? -1 : 1) * (wheel.angleDelta.y ? wheel.angleDelta.y : -wheel.angleDelta.x);
 			wheelDelta += delta;
@@ -162,7 +163,11 @@ PlasmoidItem {
 						root.exec(Plasmoid.configuration.ctrl_mousewheel_up);
 					}
 				} else {
-					performMouseWheelUp();
+					let now = Date.now();
+					if (now - lastWheelTime > Plasmoid.configuration.mousewheel_cooldown) {
+						lastWheelTime = now;
+						performMouseWheelUp();
+					}
 				}
 			}
 			while (wheelDelta <= -120) {
@@ -174,7 +179,11 @@ PlasmoidItem {
 						root.exec(Plasmoid.configuration.ctrl_mousewheel_down);
 					}
 				} else {
-					performMouseWheelDown();
+					let now = Date.now();
+					if (now - lastWheelTime > Plasmoid.configuration.mousewheel_cooldown) {
+						lastWheelTime = now;
+						performMouseWheelDown();
+					}
 				}
 			}
 		}
