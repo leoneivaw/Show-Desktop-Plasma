@@ -7,12 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 15:59-0300\n"
+"POT-Creation-Date: 2026-06-26 16:11-0300\n"
 "PO-Revision-Date: 2019-10-19 12:36\n"
-"Last-Translator: 
-"
-"Language-Team: 
-"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: Spanish \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +46,7 @@ msgid "Ctrl+Scroll Cooldown:"
 msgstr "Desplazarse hacia abajo:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
-#: contents/ui/config/ConfigGeneral.qml:120
+#: contents/ui/config/ConfigGeneral.qml:133
 msgid "ms"
 msgstr "ms"
 
@@ -67,87 +65,99 @@ msgid "Look"
 msgstr "Apariencia"
 
 #: contents/ui/config/ConfigGeneral.qml:33
+msgid "Display:"
+msgstr ""
+
+#: contents/ui/config/ConfigGeneral.qml:34
+msgid "Use Emoji/Icon instead of colors"
+msgstr ""
+
+#: contents/ui/config/ConfigGeneral.qml:39
+msgid "Icon / Emoji:"
+msgstr ""
+
+#: contents/ui/config/ConfigGeneral.qml:46
 msgid "Size:"
 msgstr "Tamaño:"
 
-#: contents/ui/config/ConfigGeneral.qml:35
+#: contents/ui/config/ConfigGeneral.qml:48
 msgid "px"
 msgstr "px"
 
-#: contents/ui/config/ConfigGeneral.qml:39
+#: contents/ui/config/ConfigGeneral.qml:52
 msgid "Edge Color:"
 msgstr "Color del borde:"
 
-#: contents/ui/config/ConfigGeneral.qml:44
+#: contents/ui/config/ConfigGeneral.qml:57
 msgid "Hovered Color:"
 msgstr "Color del hover:"
 
-#: contents/ui/config/ConfigGeneral.qml:49
+#: contents/ui/config/ConfigGeneral.qml:62
 msgid "Pressed Color:"
 msgstr "Color al pulsar:"
 
-#: contents/ui/config/ConfigGeneral.qml:54
+#: contents/ui/config/ConfigGeneral.qml:67
 #, fuzzy
 msgid "Long Press Color:"
 msgstr "Color al pulsar:"
 
-#: contents/ui/config/ConfigGeneral.qml:60
+#: contents/ui/config/ConfigGeneral.qml:73
 msgid "Click"
 msgstr "Click"
 
-#: contents/ui/config/ConfigGeneral.qml:69
+#: contents/ui/config/ConfigGeneral.qml:82
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
 #, fuzzy
 msgid "Show Desktop"
 msgstr "Mostrar el escritorio (Win7)"
 
-#: contents/ui/config/ConfigGeneral.qml:75
+#: contents/ui/config/ConfigGeneral.qml:88
 msgid "Run Command"
 msgstr "Ejecutar comando:"
 
-#: contents/ui/config/ConfigGeneral.qml:83
+#: contents/ui/config/ConfigGeneral.qml:96
 #, fuzzy
 msgid "Click Command:"
 msgstr "Ejecutar comando:"
 
-#: contents/ui/config/ConfigGeneral.qml:88
+#: contents/ui/config/ConfigGeneral.qml:101
 #, fuzzy
 msgid "Long Press Command:"
 msgstr "Ejecutar comando:"
 
-#: contents/ui/config/ConfigGeneral.qml:94
+#: contents/ui/config/ConfigGeneral.qml:107
 msgid "Mouse Wheel"
 msgstr "Rueda del ratón"
 
-#: contents/ui/config/ConfigGeneral.qml:98
+#: contents/ui/config/ConfigGeneral.qml:111
 msgid "Scroll Up:"
 msgstr "Desplazarse hacia arriba:"
 
-#: contents/ui/config/ConfigGeneral.qml:103
+#: contents/ui/config/ConfigGeneral.qml:116
 msgid "Scroll Down:"
 msgstr "Desplazarse hacia abajo:"
 
-#: contents/ui/config/ConfigGeneral.qml:109
+#: contents/ui/config/ConfigGeneral.qml:122
 msgid "Peek"
 msgstr "Previsualizar"
 
-#: contents/ui/config/ConfigGeneral.qml:113
+#: contents/ui/config/ConfigGeneral.qml:126
 msgid "Show desktop on hover:"
 msgstr "Mostrar escritorio al pasar el mouse:"
 
-#: contents/ui/config/ConfigGeneral.qml:114
+#: contents/ui/config/ConfigGeneral.qml:127
 msgid "Enable"
 msgstr "Activar"
 
-#: contents/ui/config/ConfigGeneral.qml:118
+#: contents/ui/config/ConfigGeneral.qml:131
 msgid "Peek threshold:"
 msgstr "Límite de visualización:"
 
-#: contents/ui/main.qml:438
+#: contents/ui/main.qml:449
 msgid "Unlock Widgets"
 msgstr ""
 
-#: contents/ui/main.qml:438
+#: contents/ui/main.qml:449
 msgid "Lock Widgets"
 msgstr ""
 
@@ -160,8 +170,9 @@ msgid "Select Script"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:75
-msgid "Presets..."
-msgstr ""
+#, fuzzy
+msgid "Command"
+msgstr "Ejecutar comando:"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:77
 msgid "--- Gerenciamento de Janelas e Telas ---"

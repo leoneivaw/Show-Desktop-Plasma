@@ -27,22 +27,22 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Ctrl+Click Command:")
+		Kirigami.FormData.label: i18n("Ctrl+Click:")
 		id: ctrl_click_command
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Middle Click Command:")
+		Kirigami.FormData.label: i18n("Middle Click:")
 		id: middle_click_command
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Shift+Click Command:")
+		Kirigami.FormData.label: i18n("Shift+Click:")
 		id: shift_click_command
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Alt+Click Command:")
+		Kirigami.FormData.label: i18n("Alt+Click:")
 		id: alt_click_command
 	}
 

@@ -5,12 +5,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 15:59-0300\n"
+"POT-Creation-Date: 2026-06-26 16:11-0300\n"
 "PO-Revision-Date: 2020-15-01 10:25-0300\n"
-"Last-Translator: 
-"
-"Language-Team: 
-"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: Portuguese Brazilian \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,19 +20,19 @@ msgstr "Ações Avançadas de Clique"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
 msgid "Ctrl+Click Command:"
-msgstr "Comando Ctrl+Clique:"
+msgstr "Comando Ctrl+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click Command:"
-msgstr "Comando Clique do Meio:"
+msgstr "Comando Middle Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click Command:"
-msgstr "Comando Shift+Clique:"
+msgstr "Comando Shift+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
 msgid "Alt+Click Command:"
-msgstr "Comando Alt+Clique:"
+msgstr "Comando Alt+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
@@ -42,103 +40,115 @@ msgstr "Ações Avançadas da Roda do Mouse"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
 msgid "Ctrl+Scroll Cooldown:"
-msgstr "Intervalo de Ctrl+Rolagem:"
+msgstr "Cooldown de Ctrl+Scroll:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
-#: contents/ui/config/ConfigGeneral.qml:120
+#: contents/ui/config/ConfigGeneral.qml:133
 msgid "ms"
 msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:64
 msgid "Ctrl+Scroll Up:"
-msgstr "Ctrl+Rolar para Cima:"
+msgstr "Ctrl+Scroll Up:"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
 msgid "Ctrl+Scroll Down:"
-msgstr "Ctrl+Rolar para Baixo:"
+msgstr "Ctrl+Scroll Down:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
 msgstr "Aparência"
 
 #: contents/ui/config/ConfigGeneral.qml:33
+msgid "Display:"
+msgstr "Exibição:"
+
+#: contents/ui/config/ConfigGeneral.qml:34
+msgid "Use Icon instead of colors"
+msgstr "Usar Ícone em vez de cores"
+
+#: contents/ui/config/ConfigGeneral.qml:39
+msgid "Icon:"
+msgstr "Ícone:"
+
+#: contents/ui/config/ConfigGeneral.qml:46
 msgid "Size:"
 msgstr "Tamanho:"
 
-#: contents/ui/config/ConfigGeneral.qml:35
+#: contents/ui/config/ConfigGeneral.qml:48
 msgid "px"
 msgstr "px"
 
-#: contents/ui/config/ConfigGeneral.qml:39
+#: contents/ui/config/ConfigGeneral.qml:52
 msgid "Edge Color:"
 msgstr "Cor da borda:"
 
-#: contents/ui/config/ConfigGeneral.qml:44
+#: contents/ui/config/ConfigGeneral.qml:57
 msgid "Hovered Color:"
 msgstr "Cor de foco:"
 
-#: contents/ui/config/ConfigGeneral.qml:49
+#: contents/ui/config/ConfigGeneral.qml:62
 msgid "Pressed Color:"
 msgstr "Cor de clique:"
 
-#: contents/ui/config/ConfigGeneral.qml:54
+#: contents/ui/config/ConfigGeneral.qml:67
 msgid "Long Press Color:"
 msgstr "Cor de clique longo:"
 
-#: contents/ui/config/ConfigGeneral.qml:60
+#: contents/ui/config/ConfigGeneral.qml:73
 msgid "Click"
 msgstr "Clique"
 
-#: contents/ui/config/ConfigGeneral.qml:69
+#: contents/ui/config/ConfigGeneral.qml:82
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
 msgid "Show Desktop"
 msgstr "Exibir a Área de Trabalho"
 
-#: contents/ui/config/ConfigGeneral.qml:75
+#: contents/ui/config/ConfigGeneral.qml:88
 msgid "Run Command"
 msgstr "Executar comando"
 
-#: contents/ui/config/ConfigGeneral.qml:83
-msgid "Click Command:"
-msgstr "Comando de clique:"
+#: contents/ui/config/ConfigGeneral.qml:96
+msgid "Clique Normal:"
+msgstr "Clique Normal:"
 
-#: contents/ui/config/ConfigGeneral.qml:88
-msgid "Long Press Command:"
-msgstr "Comando de clique longo:"
+#: contents/ui/config/ConfigGeneral.qml:101
+msgid "Segurar Clique:"
+msgstr "Segurar Clique:"
 
-#: contents/ui/config/ConfigGeneral.qml:94
+#: contents/ui/config/ConfigGeneral.qml:107
 msgid "Mouse Wheel"
 msgstr "Roda do mouse"
 
-#: contents/ui/config/ConfigGeneral.qml:98
+#: contents/ui/config/ConfigGeneral.qml:111
 msgid "Scroll Up:"
-msgstr "Rolar para cima:"
+msgstr "Scroll Up:"
 
-#: contents/ui/config/ConfigGeneral.qml:103
+#: contents/ui/config/ConfigGeneral.qml:116
 msgid "Scroll Down:"
-msgstr "Rolar para baixo:"
+msgstr "Scroll Down:"
 
-#: contents/ui/config/ConfigGeneral.qml:109
+#: contents/ui/config/ConfigGeneral.qml:122
 msgid "Peek"
 msgstr "Espiar"
 
-#: contents/ui/config/ConfigGeneral.qml:113
+#: contents/ui/config/ConfigGeneral.qml:126
 msgid "Show desktop on hover:"
 msgstr "Mostrar área de trabalho ao passar o mouse:"
 
-#: contents/ui/config/ConfigGeneral.qml:114
+#: contents/ui/config/ConfigGeneral.qml:127
 msgid "Enable"
 msgstr "Ativar"
 
-#: contents/ui/config/ConfigGeneral.qml:118
+#: contents/ui/config/ConfigGeneral.qml:131
 msgid "Peek threshold:"
 msgstr "Tempo de espera (ms):"
 
-#: contents/ui/main.qml:438
+#: contents/ui/main.qml:449
 msgid "Unlock Widgets"
 msgstr "Desbloquear Widgets"
 
-#: contents/ui/main.qml:438
+#: contents/ui/main.qml:449
 msgid "Lock Widgets"
 msgstr "Bloquear Widgets"
 
@@ -151,8 +161,8 @@ msgid "Select Script"
 msgstr "Selecionar Script"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:75
-msgid "Presets..."
-msgstr "Predefinições..."
+msgid "Command"
+msgstr "Comando"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:77
 msgid "--- Gerenciamento de Janelas e Telas ---"
@@ -379,6 +389,9 @@ msgstr "Executar comando personalizado"
 msgctxt "@info:tooltip"
 msgid "Run user-defined command when pressed"
 msgstr "Executa comando definido pelo usuário"
+
+#~ msgid "Presets..."
+#~ msgstr "Predefinições..."
 
 #~ msgid "Run Commands"
 #~ msgstr "Executar comandos"
