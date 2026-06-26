@@ -1,6 +1,10 @@
 <div align="center">
   <h1>Show Desktop | Plasma</h1>
   <p><strong>Mostre a área de trabalho do Plasma e tenha uma verdadeira central de atalhos avançados no seu painel!</strong></p>
+  <p>
+    <strong>Powered By: O Maior de Minas</strong> <img src="images/Maior%20de%20Minas.jpg" height="24" align="absmiddle" />
+  </p>
+  <img src="images/Maior%20de%20Minas%20Trofeus.png" height="100" />
 </div>
 
 ---
