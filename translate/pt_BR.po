@@ -19,24 +19,20 @@ msgid "Advanced Click Actions"
 msgstr "Ações Avançadas de Clique"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
-#, fuzzy
 msgid "Ctrl+Click:"
-msgstr "Comando Ctrl+Click:"
+msgstr "Ctrl+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
-#, fuzzy
 msgid "Middle Click:"
-msgstr "Comando Middle Click:"
+msgstr "Middle Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
-#, fuzzy
 msgid "Shift+Click:"
-msgstr "Comando Shift+Click:"
+msgstr "Shift+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
-#, fuzzy
 msgid "Alt+Click:"
-msgstr "Comando Alt+Click:"
+msgstr "Alt+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
@@ -122,9 +118,8 @@ msgid "Mouse Wheel"
 msgstr "Roda do mouse"
 
 #: contents/ui/config/ConfigGeneral.qml:97
-#, fuzzy
 msgid "Cooldown:"
-msgstr "Cooldown de Ctrl+Scroll:"
+msgstr "Intervalo:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
 msgid "Rolar Cima:"
