@@ -1,17 +1,18 @@
-# Translation of win7showdesktop in spanish
-# Copyright (C) 2019
-# This file is distributed under the same license as the win7showdesktop package.
-# WUniversales <universales@protonmail.com>, YEAR.
+# Translation of Power Show Desktop in spanish
+# Copyright (C) 2024
+# This file is distributed under the same license as the Power Show Desktop package.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: win7showdesktop \n"
+"Project-Id-Version: Power Show Desktop \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-26 16:11-0300\n"
 "PO-Revision-Date: 2019-10-19 12:36\n"
-"Last-Translator: wunivesales <universales@protonmail.com>\n"
-"Language-Team: Spanish <LL@li.org>\n"
+"Last-Translator: 
+"
+"Language-Team: 
+"
 "Language: Spanish \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

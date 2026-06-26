@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Power Show Desktop | Plasma</h1>
+  <h1>🧬 Power Show Desktop | Plasma</h1>
   <p><strong>Show desktop and shortcut central.</strong></p>
   <p>
     <strong>Powered By: O Maior de Minas</strong> <a href="https://www.cruzeiro.com.br/">www.cruzeiro.com.br</a> <img src="images/Maior%20de%20Minas.jpg" height="24" align="absmiddle" /> 🦊💙

@@ -1,15 +1,16 @@
-# Translation of win7showdesktop in fr
+# Translation of Power Show Desktop in fr
 # Copyright (C) 2022
-# This file is distributed under the same license as the win7showdesktop package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the Power Show Desktop package.
 msgid ""
 msgstr ""
-"Project-Id-Version: win7showdesktop\n"
+"Project-Id-Version: Power Show Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-26 16:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: fr <LL@li.org>\n"
+"Last-Translator: 
+"
+"Language-Team: 
+"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
