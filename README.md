@@ -1,71 +1,71 @@
 <div align="center">
-  <h1>Show Desktop | Plasma</h1>
-  <p><strong>Mostre a área de trabalho do Plasma e tenha uma verdadeira central de atalhos avançados no seu painel!</strong></p>
+  <h1>Power Show Desktop | Plasma</h1>
+  <p><strong>Show desktop and shortcut central.</strong></p>
   <p>
-    <strong>Powered By: O Maior de Minas</strong> <img src="images/Maior%20de%20Minas.jpg" height="24" align="absmiddle" /> 🦊💙
+    <strong>Powered By: O Maior de Minas</strong> <a href="https://www.cruzeiro.com.br/">www.cruzeiro.com.br</a> <img src="images/Maior%20de%20Minas.jpg" height="24" align="absmiddle" /> 🦊💙
   </p>
   <img src="images/Maior%20de%20Minas%20Trofeus.png" height="100" />
 </div>
 
 ---
 
-O **Show Desktop | Plasma** é um widget (plasmoid) aprimorado para o KDE Plasma. Além de oferecer o comportamento clássico de "espiar" ou minimizar as janelas para ver a sua área de trabalho (estilo Windows 7), esta versão foi amplamente modificada para servir como uma **central invisível de atalhos**.
+**Power Show Desktop | Plasma** is an enhanced widget (plasmoid) for KDE Plasma. In addition to offering the classic behavior of "peeking" or minimizing windows to see your desktop (Windows 7 style), this version has been heavily modified to serve as an **invisible shortcut central**.
 
-Com ele, você pode associar comandos e scripts poderosos a cliques e movimentos de rolagem (scroll) do mouse, tudo em um único botão no canto da sua tela!
+With it, you can assign powerful scripts and commands to clicks and mouse scroll movements, all in a single button at the corner of your screen!
 
-## ✨ Novidades desta Versão (v1.0)
+## ✨ New in this Version (v1.0)
 
-Esta versão foi redesenhada com foco na produtividade, introduzindo novas telas de configuração e dezenas de gatilhos novos:
+This version has been redesigned with productivity in mind, introducing new configuration screens and dozens of new triggers:
 
-*   **Ações Avançadas de Clique:** Configure scripts ou comandos independentes para:
-    *   `Ctrl + Clique`
-    *   `Alt + Clique`
-    *   `Shift + Clique`
-    *   `Clique com o botão do meio (Middle Click)`
-*   **Clique Longo (Long Press):** Segure o botão esquerdo do mouse pressionado para executar uma ação secundária.
-    *   *Customização de Cor:* Escolha uma cor de brilho customizada para indicar que o clique longo foi acionado.
-    *   *Anti-Conflito Inteligente:* O widget entende quando você está dando um clique longo e bloqueia automaticamente a ação de "minimizar janelas", evitando comportamentos indesejados.
-*   **Controles de Rolagem do Mouse (Scroll):**
-    *   Atribua comandos nativos de `qdbus` para a roda do mouse.
-    *   Configure `Ctrl + Rolagem para Cima` e `Ctrl + Rolagem para Baixo` (perfeito para trocar de áreas de trabalho virtuais rapidamente).
-    *   **Cooldown Configurável:** Controle a sensibilidade da rolagem! Ajuste o tempo de espera (em milissegundos) para evitar que o mouse dispare a mesma ação dezenas de vezes em um único movimento.
-*   **Layout Modernizado:** O painel de configurações internas do widget foi atualizado para utilizar o design nativo do Kirigami do KDE.
+*   **Advanced Click Actions:** Configure independent scripts or commands for:
+    *   `Ctrl + Click`
+    *   `Alt + Click`
+    *   `Shift + Click`
+    *   `Middle Click`
+*   **Long Press:** Hold the left mouse button pressed to execute a secondary action.
+    *   *Custom Glow Color:* Choose a custom glow color to indicate that the long press has been triggered.
+    *   *Smart Anti-Conflict:* The widget understands when you are long-pressing and automatically blocks the "minimize windows" action, avoiding unwanted behaviors.
+*   **Mouse Wheel Controls (Scroll):**
+    *   Assign native `qdbus` commands to the mouse wheel.
+    *   Configure `Ctrl + Scroll Up` and `Ctrl + Scroll Down` (perfect for quickly switching virtual desktops).
+    *   **Configurable Cooldown:** Control scroll sensitivity! Adjust the timeout (in milliseconds) to prevent the mouse from triggering the same action dozens of times in a single movement.
+*   **Modern Layout:** The internal settings panel of the widget has been updated to use KDE's native Kirigami design, now featuring smart command presets and a file picker for bash scripts.
 
 ---
 
-## 🚀 Instalação
+## 🚀 Installation
 
-A maneira mais fácil de instalar é utilizando o arquivo empacotado `.plasmoid` disponível na aba **Releases**.
+The easiest way to install is by using the packaged `.plasmoid` file available in the **Releases** tab.
 
-1. Vá até a página de [Releases](../../releases) do projeto.
-2. Baixe o arquivo mais recente `Show-Desktop-Plasma-1.0.plasmoid`.
-3. Para instalar, você pode dar dois cliques no arquivo baixado e usar o instalador do KDE, ou usar o terminal:
+1. Go to the project's [Releases](../../releases) page.
+2. Download the latest `Power-Show-Desktop-1.0.plasmoid` file.
+3. To install, you can double-click the downloaded file and use the KDE installer, or use the terminal:
    ```bash
-   kpackagetool6 -i Show-Desktop-Plasma-1.0.plasmoid
+   kpackagetool6 -i Power-Show-Desktop-1.0.plasmoid
    ```
-4. Reinicie o seu painel do plasma (`systemctl restart --user plasma-plasmashell`) e adicione o widget "Show Desktop | Plasma" ao seu painel.
+4. Restart your plasma panel (`systemctl restart --user plasma-plasmashell`) and add the "Power Show Desktop | Plasma" widget to your panel.
 
 ---
 
-## 🛠️ Como Configurar
+## 🛠️ How to Configure
 
-Após adicionar o widget à sua barra de tarefas:
-1. Clique com o botão direito sobre ele e selecione **"Configurar Show Desktop | Plasma"**.
-2. Na aba **Geral**, você poderá escolher a cor de clique, o comando padrão e o novo **Comando e Cor do Clique Longo (Long Press)**.
+After adding the widget to your taskbar:
+1. Right-click on it and select **"Configure 🧬 Power Show Desktop | Plasma"**.
+2. In the **General** tab, you can choose the click color, the standard command, and the new **Long Press Command and Color**.
 
-![Configuração Geral](images/config1.png)
+![General Configuration](images/config1.png)
 
-3. Na aba **Advanced Actions**, você tem acesso aos campos avançados para modificadores (`Ctrl`, `Shift`, `Alt`, `Middle Click`) e os comandos exclusivos da **Rolagem do Mouse (Scroll)**.
+3. In the **Advanced Actions** tab, you have access to advanced fields for modifiers (`Ctrl`, `Shift`, `Alt`, `Middle Click`) and exclusive **Mouse Scroll** commands.
 
-![Configuração Avançada](images/Config%20advanced.png)
+![Advanced Configuration](images/Config%20advanced.png)
 
-### Exemplo Útil para Scroll (Trocar Áreas de Trabalho)
-Experimente colar estes comandos na aba de **Advanced Actions** para trocar de Desktop usando `Ctrl + Scroll`:
-- **Ctrl+Scroll Up:** `qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut "Switch One Desktop to the Right"`
-- **Ctrl+Scroll Down:** `qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut "Switch One Desktop to the Left"`
+### Useful Example for Scrolling (Switching Desktops)
+Try selecting these commands from the smart Presets dropdown in the **Advanced Actions** tab to switch desktops using `Ctrl + Scroll`:
+- **Ctrl+Scroll Up:** `Switch One Desktop to the Right`
+- **Ctrl+Scroll Down:** `Switch One Desktop to the Left`
 
 ---
 
-## 📝 Licença
-Este software é open-source e está distribuído sob a licença **GPL-3.0**.  
-*(Este projeto é um fork do aclamado `plasma-applet-win7showdesktop` original criado por Zren, modificado e modernizado por Leonardo Pimenta).*
+## 📝 License
+This software is open-source and distributed under the **GPL-3.0** license.  
+*(This project is a fork of the acclaimed original `plasma-applet-win7showdesktop` created by Zren, modified and modernized by Leonardo Pimenta).*

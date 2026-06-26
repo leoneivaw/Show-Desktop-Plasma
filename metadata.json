@@ -7,20 +7,20 @@
 				"Name": "Leonardo Pimenta"
 			}
 		],
-		"BugReportUrl": "https://github.com/leoneivaw/Show-Desktop-Plasma/issues",
+		"BugReportUrl": "https://github.com/leoneivaw/power-show-desktop/issues",
 		"Category": "Windows and Tasks",
-		"Description": "Mostar a área de trabalho do plasma e central de atalhos",
-		"Description[pt_BR]": "Mostar a área de trabalho do plasma e central de atalhos",
+		"Description": "Show desktop and shortcut central.",
+		"Description[pt_BR]": "Mostre a área de trabalho do plasma e central de atalhos.",
 		"FormFactors": [
 			"desktop"
 		],
-		"Icon": "user-desktop",
-		"Id": "org.kde.plasma.win7showdesktop",
+		"Icon": "icon",
+		"Id": "org.kde.plasma.powershowdesktop",
 		"License": "GPL-3.0",
-		"Name": "Show Desktop |Plasma",
-		"Name[pt_BR]": "Show Desktop |Plasma",
+		"Name": "Power Show Desktop | Plasma",
+		"Name[pt_BR]": "Power Show Desktop | Plasma",
 		"Version": "1.0",
-		"Website": "https://github.com/leoneivaw/Show-Desktop-Plasma"
+		"Website": "https://github.com/leoneivaw/power-show-desktop"
 	},
 	"X-Plasma-API-Minimum-Version": "6.0",
 	"X-Plasma-Provides": [

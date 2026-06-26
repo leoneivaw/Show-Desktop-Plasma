@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: win7showdesktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 16:11-0300\n"
+"POT-Creation-Date: 2026-06-26 15:59-0300\n"
 "PO-Revision-Date: 2020-03-30 13:57+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <vistausss@outlook.com>\n"
@@ -48,7 +48,7 @@ msgid "Ctrl+Scroll Cooldown:"
 msgstr "Omlaagscrollen:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
-#: contents/ui/config/ConfigGeneral.qml:133
+#: contents/ui/config/ConfigGeneral.qml:120
 msgid "ms"
 msgstr "ms"
 
@@ -67,99 +67,87 @@ msgid "Look"
 msgstr "Uiterlijk"
 
 #: contents/ui/config/ConfigGeneral.qml:33
-msgid "Display:"
-msgstr ""
-
-#: contents/ui/config/ConfigGeneral.qml:34
-msgid "Use Emoji/Icon instead of colors"
-msgstr ""
-
-#: contents/ui/config/ConfigGeneral.qml:39
-msgid "Icon / Emoji:"
-msgstr ""
-
-#: contents/ui/config/ConfigGeneral.qml:46
 msgid "Size:"
 msgstr "Grootte:"
 
-#: contents/ui/config/ConfigGeneral.qml:48
+#: contents/ui/config/ConfigGeneral.qml:35
 msgid "px"
 msgstr "px"
 
-#: contents/ui/config/ConfigGeneral.qml:52
+#: contents/ui/config/ConfigGeneral.qml:39
 msgid "Edge Color:"
 msgstr "Randkleur:"
 
-#: contents/ui/config/ConfigGeneral.qml:57
+#: contents/ui/config/ConfigGeneral.qml:44
 msgid "Hovered Color:"
 msgstr "Kleur bij tonen zonder klikken:"
 
-#: contents/ui/config/ConfigGeneral.qml:62
+#: contents/ui/config/ConfigGeneral.qml:49
 msgid "Pressed Color:"
 msgstr "Kleur bij indrukken:"
 
-#: contents/ui/config/ConfigGeneral.qml:67
+#: contents/ui/config/ConfigGeneral.qml:54
 #, fuzzy
 msgid "Long Press Color:"
 msgstr "Kleur bij indrukken:"
 
-#: contents/ui/config/ConfigGeneral.qml:73
+#: contents/ui/config/ConfigGeneral.qml:60
 msgid "Click"
 msgstr "Klikken"
 
-#: contents/ui/config/ConfigGeneral.qml:82
+#: contents/ui/config/ConfigGeneral.qml:69
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
 #, fuzzy
 msgid "Show Desktop"
 msgstr "Bureaublad tonen (Win7)"
 
-#: contents/ui/config/ConfigGeneral.qml:88
+#: contents/ui/config/ConfigGeneral.qml:75
 msgid "Run Command"
 msgstr "Opdracht uitvoeren"
 
-#: contents/ui/config/ConfigGeneral.qml:96
+#: contents/ui/config/ConfigGeneral.qml:83
 #, fuzzy
 msgid "Click Command:"
 msgstr "Opdracht uitvoeren"
 
-#: contents/ui/config/ConfigGeneral.qml:101
+#: contents/ui/config/ConfigGeneral.qml:88
 #, fuzzy
 msgid "Long Press Command:"
 msgstr "Opdracht uitvoeren"
 
-#: contents/ui/config/ConfigGeneral.qml:107
+#: contents/ui/config/ConfigGeneral.qml:94
 msgid "Mouse Wheel"
 msgstr "Scrollwiel"
 
-#: contents/ui/config/ConfigGeneral.qml:111
+#: contents/ui/config/ConfigGeneral.qml:98
 msgid "Scroll Up:"
 msgstr "Omhoogscrollen:"
 
-#: contents/ui/config/ConfigGeneral.qml:116
+#: contents/ui/config/ConfigGeneral.qml:103
 msgid "Scroll Down:"
 msgstr "Omlaagscrollen:"
 
-#: contents/ui/config/ConfigGeneral.qml:122
+#: contents/ui/config/ConfigGeneral.qml:109
 msgid "Peek"
 msgstr "Gluren"
 
-#: contents/ui/config/ConfigGeneral.qml:126
+#: contents/ui/config/ConfigGeneral.qml:113
 msgid "Show desktop on hover:"
 msgstr "Bureaublad tonen zonder klikken:"
 
-#: contents/ui/config/ConfigGeneral.qml:127
+#: contents/ui/config/ConfigGeneral.qml:114
 msgid "Enable"
 msgstr "Inschakelen"
 
-#: contents/ui/config/ConfigGeneral.qml:131
+#: contents/ui/config/ConfigGeneral.qml:118
 msgid "Peek threshold:"
 msgstr "Gluurvertraging:"
 
-#: contents/ui/main.qml:449
+#: contents/ui/main.qml:438
 msgid "Unlock Widgets"
 msgstr ""
 
-#: contents/ui/main.qml:449
+#: contents/ui/main.qml:438
 msgid "Lock Widgets"
 msgstr ""
 
@@ -172,9 +160,8 @@ msgid "Select Script"
 msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:75
-#, fuzzy
-msgid "Command"
-msgstr "Opdracht uitvoeren"
+msgid "Presets..."
+msgstr ""
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:77
 msgid "--- Gerenciamento de Janelas e Telas ---"

@@ -26,32 +26,24 @@ LibConfig.FormKCM {
 		label.Layout.topMargin: 0
 	}
 
-	QQC2.TextField {
+	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Ctrl+Click Command:")
-		Layout.fillWidth: true
 		id: ctrl_click_command
-		wrapMode: QQC2.TextField.Wrap
 	}
 
-	QQC2.TextField {
+	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Middle Click Command:")
-		Layout.fillWidth: true
 		id: middle_click_command
-		wrapMode: QQC2.TextField.Wrap
 	}
 
-	QQC2.TextField {
+	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Shift+Click Command:")
-		Layout.fillWidth: true
 		id: shift_click_command
-		wrapMode: QQC2.TextField.Wrap
 	}
 
-	QQC2.TextField {
+	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Alt+Click Command:")
-		Layout.fillWidth: true
 		id: alt_click_command
-		wrapMode: QQC2.TextField.Wrap
 	}
 
 	//-------------------------------------------------------
@@ -68,17 +60,13 @@ LibConfig.FormKCM {
 		to: 5000
 	}
 
-	QQC2.TextField {
+	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Ctrl+Scroll Up:")
-		Layout.fillWidth: true
 		id: ctrl_mousewheel_up
-		wrapMode: QQC2.TextField.Wrap
 	}
 
-	QQC2.TextField {
+	LibConfig.CommandFieldWithPresets {
 		Kirigami.FormData.label: i18n("Ctrl+Scroll Down:")
-		Layout.fillWidth: true
 		id: ctrl_mousewheel_down
-		wrapMode: QQC2.TextField.Wrap
 	}
 }

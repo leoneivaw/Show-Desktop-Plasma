@@ -1,433 +1,401 @@
-# Translation of win7showdesktop in nl
+# Translation of win7showdesktop in brazilian portuguese
 # Copyright (C) 2019
 # This file is distributed under the same license as the win7showdesktop package.
-#
-# Heimen Stoffels <vistausss@outlook.com>, 2019.
+# Andrew Miranda <kryptusql@protonmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: win7showdesktop\n"
+"Project-Id-Version: win7showdesktop \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 16:11-0300\n"
-"PO-Revision-Date: 2020-03-30 13:57+0200\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
-"Language-Team: Dutch <vistausss@outlook.com>\n"
-"Language: nl\n"
+"POT-Creation-Date: 2026-06-26 15:59-0300\n"
+"PO-Revision-Date: 2020-15-01 10:25-0300\n"
+"Last-Translator: Andrew Miranda <kryptusql@protonmail.com>\n"
+"Language-Team: Portuguese Brazilian <kryptusql@protonmail.com>\n"
+"Language: Portuguese Brazilian \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3\n"
 
 #: contents/ui/config/ConfigAdvanced.qml:24
 msgid "Advanced Click Actions"
-msgstr ""
+msgstr "Ações Avançadas de Clique"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
 msgid "Ctrl+Click Command:"
-msgstr ""
+msgstr "Comando Ctrl+Clique:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
 msgid "Middle Click Command:"
-msgstr ""
+msgstr "Comando Clique do Meio:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
 msgid "Shift+Click Command:"
-msgstr ""
+msgstr "Comando Shift+Clique:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
 msgid "Alt+Click Command:"
-msgstr ""
+msgstr "Comando Alt+Clique:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
-msgstr ""
+msgstr "Ações Avançadas da Roda do Mouse"
 
 #: contents/ui/config/ConfigAdvanced.qml:55
-#, fuzzy
 msgid "Ctrl+Scroll Cooldown:"
-msgstr "Omlaagscrollen:"
+msgstr "Intervalo de Ctrl+Rolagem:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
-#: contents/ui/config/ConfigGeneral.qml:133
+#: contents/ui/config/ConfigGeneral.qml:120
 msgid "ms"
-msgstr "ms"
+msgstr ""
 
 #: contents/ui/config/ConfigAdvanced.qml:64
-#, fuzzy
 msgid "Ctrl+Scroll Up:"
-msgstr "Omhoogscrollen:"
+msgstr "Ctrl+Rolar para Cima:"
 
 #: contents/ui/config/ConfigAdvanced.qml:69
-#, fuzzy
 msgid "Ctrl+Scroll Down:"
-msgstr "Omlaagscrollen:"
+msgstr "Ctrl+Rolar para Baixo:"
 
 #: contents/ui/config/ConfigGeneral.qml:27
 msgid "Look"
-msgstr "Uiterlijk"
+msgstr "Aparência"
 
 #: contents/ui/config/ConfigGeneral.qml:33
-msgid "Display:"
-msgstr ""
-
-#: contents/ui/config/ConfigGeneral.qml:34
-msgid "Use Emoji/Icon instead of colors"
-msgstr ""
-
-#: contents/ui/config/ConfigGeneral.qml:39
-msgid "Icon / Emoji:"
-msgstr ""
-
-#: contents/ui/config/ConfigGeneral.qml:46
 msgid "Size:"
-msgstr "Grootte:"
+msgstr "Tamanho:"
 
-#: contents/ui/config/ConfigGeneral.qml:48
+#: contents/ui/config/ConfigGeneral.qml:35
 msgid "px"
 msgstr "px"
 
-#: contents/ui/config/ConfigGeneral.qml:52
+#: contents/ui/config/ConfigGeneral.qml:39
 msgid "Edge Color:"
-msgstr "Randkleur:"
+msgstr "Cor da borda:"
 
-#: contents/ui/config/ConfigGeneral.qml:57
+#: contents/ui/config/ConfigGeneral.qml:44
 msgid "Hovered Color:"
-msgstr "Kleur bij tonen zonder klikken:"
+msgstr "Cor de foco:"
 
-#: contents/ui/config/ConfigGeneral.qml:62
+#: contents/ui/config/ConfigGeneral.qml:49
 msgid "Pressed Color:"
-msgstr "Kleur bij indrukken:"
+msgstr "Cor de clique:"
 
-#: contents/ui/config/ConfigGeneral.qml:67
-#, fuzzy
+#: contents/ui/config/ConfigGeneral.qml:54
 msgid "Long Press Color:"
-msgstr "Kleur bij indrukken:"
+msgstr "Cor de clique longo:"
 
-#: contents/ui/config/ConfigGeneral.qml:73
+#: contents/ui/config/ConfigGeneral.qml:60
 msgid "Click"
-msgstr "Klikken"
+msgstr "Clique"
 
-#: contents/ui/config/ConfigGeneral.qml:82
+#: contents/ui/config/ConfigGeneral.qml:69
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:83
-#, fuzzy
 msgid "Show Desktop"
-msgstr "Bureaublad tonen (Win7)"
+msgstr "Exibir a Área de Trabalho"
+
+#: contents/ui/config/ConfigGeneral.qml:75
+msgid "Run Command"
+msgstr "Executar comando"
+
+#: contents/ui/config/ConfigGeneral.qml:83
+msgid "Click Command:"
+msgstr "Comando de clique:"
 
 #: contents/ui/config/ConfigGeneral.qml:88
-msgid "Run Command"
-msgstr "Opdracht uitvoeren"
-
-#: contents/ui/config/ConfigGeneral.qml:96
-#, fuzzy
-msgid "Click Command:"
-msgstr "Opdracht uitvoeren"
-
-#: contents/ui/config/ConfigGeneral.qml:101
-#, fuzzy
 msgid "Long Press Command:"
-msgstr "Opdracht uitvoeren"
+msgstr "Comando de clique longo:"
 
-#: contents/ui/config/ConfigGeneral.qml:107
+#: contents/ui/config/ConfigGeneral.qml:94
 msgid "Mouse Wheel"
-msgstr "Scrollwiel"
+msgstr "Roda do mouse"
 
-#: contents/ui/config/ConfigGeneral.qml:111
+#: contents/ui/config/ConfigGeneral.qml:98
 msgid "Scroll Up:"
-msgstr "Omhoogscrollen:"
+msgstr "Rolar para cima:"
 
-#: contents/ui/config/ConfigGeneral.qml:116
+#: contents/ui/config/ConfigGeneral.qml:103
 msgid "Scroll Down:"
-msgstr "Omlaagscrollen:"
+msgstr "Rolar para baixo:"
 
-#: contents/ui/config/ConfigGeneral.qml:122
+#: contents/ui/config/ConfigGeneral.qml:109
 msgid "Peek"
-msgstr "Gluren"
+msgstr "Espiar"
 
-#: contents/ui/config/ConfigGeneral.qml:126
+#: contents/ui/config/ConfigGeneral.qml:113
 msgid "Show desktop on hover:"
-msgstr "Bureaublad tonen zonder klikken:"
+msgstr "Mostrar área de trabalho ao passar o mouse:"
 
-#: contents/ui/config/ConfigGeneral.qml:127
+#: contents/ui/config/ConfigGeneral.qml:114
 msgid "Enable"
-msgstr "Inschakelen"
+msgstr "Ativar"
 
-#: contents/ui/config/ConfigGeneral.qml:131
+#: contents/ui/config/ConfigGeneral.qml:118
 msgid "Peek threshold:"
-msgstr "Gluurvertraging:"
+msgstr "Tempo de espera (ms):"
 
-#: contents/ui/main.qml:449
+#: contents/ui/main.qml:438
 msgid "Unlock Widgets"
-msgstr ""
+msgstr "Desbloquear Widgets"
 
-#: contents/ui/main.qml:449
+#: contents/ui/main.qml:438
 msgid "Lock Widgets"
-msgstr ""
+msgstr "Bloquear Widgets"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:41
 msgid "Select a Bash Script (.sh)"
-msgstr ""
+msgstr "Selecione um script Bash (.sh)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:46
 msgid "Select Script"
-msgstr ""
+msgstr "Selecionar Script"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:75
-#, fuzzy
-msgid "Command"
-msgstr "Opdracht uitvoeren"
+msgid "Presets..."
+msgstr "Predefinições..."
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:77
 msgid "--- Gerenciamento de Janelas e Telas ---"
-msgstr ""
+msgstr "--- Gerenciamento de Janelas e Telas ---"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:78
 msgid "Overview"
-msgstr ""
+msgstr "Visão Geral"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:79
 msgid "Present Windows (Current Desktop)"
-msgstr ""
+msgstr "Apresentar Janelas (Área Atual)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:80
 msgid "Present Windows (All Desktops)"
-msgstr ""
+msgstr "Apresentar Janelas (Todas)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:81
 msgid "Present Windows (Window Class)"
-msgstr ""
+msgstr "Apresentar Janelas (Por Classe)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:82
-#, fuzzy
 msgid "Show Desktop Grid"
-msgstr "Bureaublad tonen (Win7)"
+msgstr "Mostrar Grade de Áreas de Trabalho"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:85
 msgid "--- Alternância de Áreas de Trabalho ---"
-msgstr ""
+msgstr "--- Alternância de Áreas de Trabalho ---"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:86
-#, fuzzy
 msgid "Switch Desktop Right"
-msgstr "Overschakelen naar ander bureaublad (qdbus)"
+msgstr "Mudar Área de Trabalho Direita"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:87
-#, fuzzy
 msgid "Switch Desktop Left"
-msgstr "Overschakelen naar ander bureaublad (qdbus)"
+msgstr "Mudar Área de Trabalho Esquerda"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:88
 msgid "Window to Next Desktop"
-msgstr ""
+msgstr "Mover Janela para Próxima Área"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:89
 msgid "Window to Prev Desktop"
-msgstr ""
+msgstr "Mover Janela para Área Anterior"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:90
 msgid "Window to Next Screen"
-msgstr ""
+msgstr "Mover Janela para Próxima Tela"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:91
 msgid "Window to Prev Screen"
-msgstr ""
+msgstr "Mover Janela para Tela Anterior"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:93
 msgid "--- Posicionamento e Tiling ---"
-msgstr ""
+msgstr "--- Posicionamento e Tiling ---"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:94
 msgid "Edit Tiles"
-msgstr ""
+msgstr "Editar Ladrilhos"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:95
 msgid "Switch Window Left"
-msgstr ""
+msgstr "Alternar Janela à Esquerda"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:96
 msgid "Switch Window Right"
-msgstr ""
+msgstr "Alternar Janela à Direita"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:97
 msgid "Switch Window Up"
-msgstr ""
+msgstr "Alternar Janela Acima"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:98
 msgid "Switch Window Down"
-msgstr ""
+msgstr "Alternar Janela Abaixo"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:99
 msgid "Window Move Center"
-msgstr ""
+msgstr "Mover Janela para o Centro"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:100
 msgid "Quick Tile Left"
-msgstr ""
+msgstr "Anexar Janela à Esquerda"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:101
 msgid "Quick Tile Right"
-msgstr ""
+msgstr "Anexar Janela à Direita"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:102
 msgid "Quick Tile Top"
-msgstr ""
+msgstr "Anexar Janela ao Topo"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:103
 msgid "Quick Tile Bottom"
-msgstr ""
+msgstr "Anexar Janela à Base"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:104
 msgid "Quick Tile Top Left"
-msgstr ""
+msgstr "Anexar Janela Topo-Esquerda"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:105
 msgid "Quick Tile Top Right"
-msgstr ""
+msgstr "Anexar Janela Topo-Direita"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:106
 msgid "Quick Tile Bottom Left"
-msgstr ""
+msgstr "Anexar Janela Base-Esquerda"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:107
 msgid "Quick Tile Bottom Right"
-msgstr ""
+msgstr "Anexar Janela Base-Direita"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:108
 msgid "Pack Window Left"
-msgstr ""
+msgstr "Empacotar Janela à Esquerda"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:109
 msgid "Pack Window Right"
-msgstr ""
+msgstr "Empacotar Janela à Direita"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:110
 msgid "Pack Window Up"
-msgstr ""
+msgstr "Empacotar Janela Acima"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:111
 msgid "Pack Window Down"
-msgstr ""
+msgstr "Empacotar Janela Abaixo"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:113
 msgid "--- Áudio (amixer / Sem UI) ---"
-msgstr ""
+msgstr "--- Áudio (amixer / Sem UI) ---"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:114
-#, fuzzy
 msgid "Volume Up (amixer)"
-msgstr "Volume (zonder venster - amixer)"
+msgstr "Aumentar Volume (amixer)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:115
-#, fuzzy
 msgid "Volume Down (amixer)"
-msgstr "Volume (zonder venster - amixer)"
+msgstr "Diminuir Volume (amixer)"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:117
 msgid "--- Áudio (kmix) ---"
-msgstr ""
+msgstr "--- Áudio (kmix) ---"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:118
 msgid "Mute/Unmute"
-msgstr ""
+msgstr "Mutar/Desmutar"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:119
 msgid "Volume Up"
-msgstr ""
+msgstr "Aumentar Volume"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:120
-#, fuzzy
 msgid "Volume Down"
-msgstr "Omlaagscrollen:"
+msgstr "Diminuir Volume"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:121
 msgid "Mic Mute"
-msgstr ""
+msgstr "Mutar Microfone"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:123
 msgid "--- Controle de Mídia ---"
-msgstr ""
+msgstr "--- Controle de Mídia ---"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:124
 msgid "Play/Pause"
-msgstr ""
+msgstr "Tocar/Pausar"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:125
 msgid "Next Track"
-msgstr ""
+msgstr "Próxima Faixa"
 
 #: contents/ui/libconfig/CommandFieldWithPresets.qml:126
 msgid "Prev Track"
-msgstr ""
+msgstr "Faixa Anterior"
 
 #: contents/ui/PeekController.qml:13
 msgctxt "@action:button"
 msgid "Peek at Desktop"
-msgstr ""
+msgstr "Espiar Área de Trabalho"
 
 #: contents/ui/PeekController.qml:14
 msgctxt "@action:button"
 msgid "Stop Peeking at Desktop"
-msgstr ""
+msgstr "Parar de Espiar"
 
 #: contents/ui/PeekController.qml:16
 msgctxt "@info:tooltip"
 msgid "Moves windows back to their original positions"
-msgstr ""
+msgstr "Mover janelas para a posição original"
 
 #: contents/ui/PeekController.qml:17
 msgctxt "@info:tooltip"
 msgid "Temporarily shows the desktop by moving windows away"
-msgstr ""
+msgstr "Exibe a área de trabalho temporariamente"
 
 #: contents/ui/MinimizeAllController.qml:17
 msgctxt "@action:button"
 msgid "Restore All Minimized Windows"
-msgstr ""
+msgstr "Restaurar Janelas Minimizadas"
 
 #: contents/ui/MinimizeAllController.qml:18
 msgctxt "@action:button"
 msgid "Minimize All Windows"
-msgstr ""
+msgstr "Minimizar Todas Janelas"
 
 #: contents/ui/MinimizeAllController.qml:20
 msgctxt "@info:tooltip"
 msgid "Restores the previously minimized windows"
-msgstr ""
+msgstr "Restaura janelas previamente minimizadas"
 
 #: contents/ui/MinimizeAllController.qml:21
 msgctxt "@info:tooltip"
 msgid "Shows the Desktop by minimizing all windows"
-msgstr ""
+msgstr "Exibe a área de trabalho minimizando as janelas"
 
 #: contents/ui/CommandController.qml:13
 msgctxt "@action:button"
 msgid "Run custom command"
-msgstr ""
+msgstr "Executar comando personalizado"
 
 #: contents/ui/CommandController.qml:16
 msgctxt "@info:tooltip"
 msgid "Run user-defined command when pressed"
-msgstr ""
+msgstr "Executa comando definido pelo usuário"
 
 #~ msgid "Run Commands"
-#~ msgstr "Opdrachten uitvoeren"
+#~ msgstr "Executar comandos"
 
 #~ msgid "Volume (No UI) (amixer)"
-#~ msgstr "Volume (zonder venster - amixer)"
+#~ msgstr "Volume (Sem UI) (amixer)"
 
 #~ msgid "Volume (UI) (qdbus)"
-#~ msgstr "Volume (met venster - qdbus)"
+#~ msgstr "Volume (Com UI) (qdbus)"
 
 #~ msgid "Switch Desktop (qdbus)"
-#~ msgstr "Overschakelen naar ander bureaublad (qdbus)"
+#~ msgstr "Alternar área de trabalho (qdbus)"
 
 #~ msgid "Show the Plasma desktop"
-#~ msgstr "Toont het Plasma-bureaublad"
+#~ msgstr "Mostra a área de trabalho do Plasma"
 
 #~ msgid "General"
-#~ msgstr "Algemeen"
+#~ msgstr "Geral"
 
 #~ msgid "<b>Version:</b> %1"
-#~ msgstr "<b>Versie:</b> %1"
-
-#~ msgid "Toggle Lock Widgets"
-#~ msgstr "Widgets ver-/ontgrendelen"
+#~ msgstr "<b>Versão:</b> %1"

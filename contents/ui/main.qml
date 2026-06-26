@@ -275,19 +275,19 @@ PlasmoidItem {
 		ButtonSurface {
 			id: hoverSurface
 			color: Plasmoid.configuration.hoveredColor
-			opacity: mouseArea.state === "hover" ? 1 : 0
+			opacity: (!Plasmoid.configuration.useIcon && mouseArea.state === "hover") ? 1 : 0
 		}
 
 		ButtonSurface {
 			id: pressedSurface
 			color: Plasmoid.configuration.pressedColor
-			opacity: mouseArea.state === "pressed" ? 1 : 0
+			opacity: (!Plasmoid.configuration.useIcon && mouseArea.state === "pressed") ? 1 : 0
 		}
 
 		ButtonSurface {
 			id: longPressedSurface
 			color: Plasmoid.configuration.longpressColor
-			opacity: mouseArea.isLongPressed ? 1 : 0
+			opacity: (!Plasmoid.configuration.useIcon && mouseArea.isLongPressed) ? 1 : 0
 		}
 
 		ButtonSurface {
@@ -295,6 +295,17 @@ PlasmoidItem {
 			color: "transparent"
 			border.color: Plasmoid.configuration.edgeColor
 			border.width: 1
+			opacity: (!Plasmoid.configuration.useIcon) ? 1 : 0
+		}
+
+		Text {
+			anchors.fill: parent
+			text: Plasmoid.configuration.iconName
+			visible: Plasmoid.configuration.useIcon
+			opacity: mouseArea.state === "pressed" ? 0.7 : 1.0
+			horizontalAlignment: Text.AlignHCenter
+			verticalAlignment: Text.AlignVCenter
+			font.pixelSize: Math.min(parent.width, parent.height) * 0.8
 		}
 
 		// Active/not active indicator

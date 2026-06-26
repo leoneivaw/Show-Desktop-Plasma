@@ -7,13 +7,13 @@
 
 	<group name="General">
 		<entry name="click_action" type="string">
-			<default>showdesktop</default>
+			<default>run_command</default>
 		</entry>
 		<entry name="click_command" type="string">
-			<default></default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut "Show Desktop"</default>
 		</entry>
 		<entry name="longclick_command" type="string">
-			<default></default>
+			<default>qdbus6 org.kde.kglobalaccel /component/kmix invokeShortcut "mute"</default>
 		</entry>
 		<entry name="ctrl_click_command" type="string">
 			<default></default>
@@ -40,10 +40,10 @@
 			<default>run_commands</default>
 		</entry>
 		<entry name="mousewheel_up" type="string">
-			<default>qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "increase_volume"</default>
+			<default>amixer -q sset Master 10%+</default>
 		</entry>
 		<entry name="mousewheel_down" type="string">
-			<default>qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "decrease_volume"</default>
+			<default>amixer -q sset Master 10%-</default>
 		</entry>
 		<entry name="size" type="int">
 			<default>8</default>
@@ -55,16 +55,22 @@
 			<default>1000</default>
 		</entry>
 		<entry name="edgeColor" type="string">
-			<default></default>
+			<default>#ffffff</default>
 		</entry>
 		<entry name="hoveredColor" type="string">
-			<default></default>
+			<default>#c5ff95</default>
 		</entry>
 		<entry name="pressedColor" type="string">
-			<default></default>
+			<default>#ffba80</default>
 		</entry>
 		<entry name="longpressColor" type="string">
-			<default></default>
+			<default>#c792ff</default>
+		</entry>
+		<entry name="useIcon" type="bool">
+			<default>false</default>
+		</entry>
+		<entry name="iconName" type="string">
+			<default>🧬</default>
 		</entry>
 	</group>
 </kcfg>
