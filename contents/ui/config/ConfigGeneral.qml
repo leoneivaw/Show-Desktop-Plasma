@@ -53,22 +53,22 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Cor da Borda:")
+		Kirigami.FormData.label: i18n("Edge Color:")
 		configKey: 'edgeColor'
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Cor ao Focar:")
+		Kirigami.FormData.label: i18n("Hover Color:")
 		configKey: 'hoveredColor'
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Cor ao Clicar:")
+		Kirigami.FormData.label: i18n("Pressed Color:")
 		configKey: 'pressedColor'
 	}
 
 	LibConfig.ColorField {
-		Kirigami.FormData.label: i18n("Cor ao Segurar:")
+		Kirigami.FormData.label: i18n("Long Press Color:")
 		configKey: 'longpressColor'
 	}
 
@@ -79,12 +79,12 @@ LibConfig.FormKCM {
 
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Clique Normal:")
+		Kirigami.FormData.label: i18n("Normal Click:")
 		id: click_command
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Segurar Clique:")
+		Kirigami.FormData.label: i18n("Long Press:")
 		id: longclick_command
 	}
 
@@ -107,12 +107,12 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Rolar Cima:")
+		Kirigami.FormData.label: i18n("Scroll Up:")
 		id: mousewheel_up
 	}
 
 	LibConfig.CommandFieldWithPresets {
-		Kirigami.FormData.label: i18n("Rolar Baixo:")
+		Kirigami.FormData.label: i18n("Scroll Down:")
 		id: mousewheel_down
 	}
 
@@ -122,12 +122,12 @@ LibConfig.FormKCM {
 	}
 
 	LibConfig.CheckBox {
-		Kirigami.FormData.label: i18n("Ativar ao focar:")
+		Kirigami.FormData.label: i18n("Enable on hover:")
 		text: i18n("Enable")
 		configKey: 'peekingEnabled'
 	}
 	LibConfig.SpinBox {
-		Kirigami.FormData.label: i18n("Atraso:")
+		Kirigami.FormData.label: i18n("Delay:")
 		configKey: 'peekingThreshold'
 		suffix: i18n("ms")
 		stepSize: 50

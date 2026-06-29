@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 17:19-0300\n"
+"POT-Creation-Date: 2026-06-29 10:17-0300\n"
 "PO-Revision-Date: 2020-03-30 13:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -94,32 +94,36 @@ msgid "px"
 msgstr "px"
 
 #: contents/ui/config/ConfigGeneral.qml:56
-msgid "Cor da Borda:"
-msgstr ""
+msgid "Edge Color:"
+msgstr "Randkleur:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
-msgid "Cor ao Focar:"
-msgstr ""
+#, fuzzy
+msgid "Hover Color:"
+msgstr "Kleur bij tonen zonder klikken:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
-msgid "Cor ao Clicar:"
-msgstr ""
+msgid "Pressed Color:"
+msgstr "Kleur bij indrukken:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
-msgid "Cor ao Segurar:"
-msgstr ""
+#, fuzzy
+msgid "Long Press Color:"
+msgstr "Kleur bij indrukken:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
 msgstr "Klikken"
 
 #: contents/ui/config/ConfigGeneral.qml:82
-msgid "Clique Normal:"
-msgstr ""
+#, fuzzy
+msgid "Normal Click:"
+msgstr "Klikken"
 
 #: contents/ui/config/ConfigGeneral.qml:87
-msgid "Segurar Clique:"
-msgstr ""
+#, fuzzy
+msgid "Long Press:"
+msgstr "Kleur bij indrukken:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
@@ -131,19 +135,19 @@ msgid "Cooldown:"
 msgstr "Omlaagscrollen:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
-msgid "Rolar Cima:"
-msgstr ""
+msgid "Scroll Up:"
+msgstr "Omhoogscrollen:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
-msgid "Rolar Baixo:"
-msgstr ""
+msgid "Scroll Down:"
+msgstr "Omlaagscrollen:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
 msgstr "Gluren"
 
 #: contents/ui/config/ConfigGeneral.qml:125
-msgid "Ativar ao focar:"
+msgid "Enable on hover:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:126
@@ -151,7 +155,7 @@ msgid "Enable"
 msgstr "Inschakelen"
 
 #: contents/ui/config/ConfigGeneral.qml:130
-msgid "Atraso:"
+msgid "Delay:"
 msgstr ""
 
 #: contents/ui/main.qml:458
@@ -412,19 +416,6 @@ msgctxt "@info:tooltip"
 msgid "Run user-defined command when pressed"
 msgstr ""
 
-#~ msgid "Edge Color:"
-#~ msgstr "Randkleur:"
-
-#~ msgid "Hovered Color:"
-#~ msgstr "Kleur bij tonen zonder klikken:"
-
-#~ msgid "Pressed Color:"
-#~ msgstr "Kleur bij indrukken:"
-
-#, fuzzy
-#~ msgid "Long Press Color:"
-#~ msgstr "Kleur bij indrukken:"
-
 #~ msgid "Run Command"
 #~ msgstr "Opdracht uitvoeren"
 
@@ -435,12 +426,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Long Press Command:"
 #~ msgstr "Opdracht uitvoeren"
-
-#~ msgid "Scroll Up:"
-#~ msgstr "Omhoogscrollen:"
-
-#~ msgid "Scroll Down:"
-#~ msgstr "Omlaagscrollen:"
 
 #~ msgid "Show desktop on hover:"
 #~ msgstr "Bureaublad tonen zonder klikken:"

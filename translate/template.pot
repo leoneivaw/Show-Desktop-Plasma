@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 17:19-0300\n"
+"POT-Creation-Date: 2026-06-29 10:17-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,19 +89,19 @@ msgid "px"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:56
-msgid "Cor da Borda:"
+msgid "Edge Color:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:61
-msgid "Cor ao Focar:"
+msgid "Hover Color:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:66
-msgid "Cor ao Clicar:"
+msgid "Pressed Color:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:71
-msgid "Cor ao Segurar:"
+msgid "Long Press Color:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:77
@@ -109,11 +109,11 @@ msgid "Click"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:82
-msgid "Clique Normal:"
+msgid "Normal Click:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:87
-msgid "Segurar Clique:"
+msgid "Long Press:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:93
@@ -125,11 +125,11 @@ msgid "Cooldown:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:110
-msgid "Rolar Cima:"
+msgid "Scroll Up:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:115
-msgid "Rolar Baixo:"
+msgid "Scroll Down:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:121
@@ -137,7 +137,7 @@ msgid "Peek"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:125
-msgid "Ativar ao focar:"
+msgid "Enable on hover:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:126
@@ -145,7 +145,7 @@ msgid "Enable"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:130
-msgid "Atraso:"
+msgid "Delay:"
 msgstr ""
 
 #: contents/ui/main.qml:458

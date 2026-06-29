@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 17:02-0300\n"
+"POT-Creation-Date: 2026-06-26 17:19-0300\n"
 "PO-Revision-Date: 2019-10-19 12:36\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -49,16 +49,21 @@ msgstr "Desplazarse hacia abajo:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
-#: contents/ui/config/ConfigGeneral.qml:127
+#: contents/ui/config/ConfigGeneral.qml:132
 msgid "ms"
 msgstr "ms"
 
-#: contents/ui/config/ConfigAdvanced.qml:64
+#: contents/ui/config/ConfigAdvanced.qml:63
+#: contents/ui/config/ConfigGeneral.qml:104
+msgid "Recommended cooldown: 0"
+msgstr ""
+
+#: contents/ui/config/ConfigAdvanced.qml:69
 #, fuzzy
 msgid "Ctrl+Scroll Up:"
 msgstr "Desplazarse hacia arriba:"
 
-#: contents/ui/config/ConfigAdvanced.qml:69
+#: contents/ui/config/ConfigAdvanced.qml:74
 #, fuzzy
 msgid "Ctrl+Scroll Down:"
 msgstr "Desplazarse hacia abajo:"
@@ -124,27 +129,27 @@ msgstr "Rueda del ratón"
 msgid "Cooldown:"
 msgstr "Desplazarse hacia abajo:"
 
-#: contents/ui/config/ConfigGeneral.qml:105
+#: contents/ui/config/ConfigGeneral.qml:110
 msgid "Rolar Cima:"
 msgstr ""
 
-#: contents/ui/config/ConfigGeneral.qml:110
+#: contents/ui/config/ConfigGeneral.qml:115
 msgid "Rolar Baixo:"
 msgstr ""
 
-#: contents/ui/config/ConfigGeneral.qml:116
+#: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
 msgstr "Previsualizar"
 
-#: contents/ui/config/ConfigGeneral.qml:120
+#: contents/ui/config/ConfigGeneral.qml:125
 msgid "Ativar ao focar:"
 msgstr ""
 
-#: contents/ui/config/ConfigGeneral.qml:121
+#: contents/ui/config/ConfigGeneral.qml:126
 msgid "Enable"
 msgstr "Activar"
 
-#: contents/ui/config/ConfigGeneral.qml:125
+#: contents/ui/config/ConfigGeneral.qml:130
 msgid "Atraso:"
 msgstr ""
 

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 17:02-0300\n"
+"POT-Creation-Date: 2026-06-26 17:19-0300\n"
 "PO-Revision-Date: 2020-15-01 10:25-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -19,24 +19,20 @@ msgid "Advanced Click Actions"
 msgstr "Ações Avançadas de Clique"
 
 #: contents/ui/config/ConfigAdvanced.qml:30
-#, fuzzy
 msgid "Ctrl+Click:"
-msgstr "Comando Ctrl+Click:"
+msgstr "Ctrl+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:35
-#, fuzzy
 msgid "Middle Click:"
-msgstr "Comando Middle Click:"
+msgstr "Middle Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:40
-#, fuzzy
 msgid "Shift+Click:"
-msgstr "Comando Shift+Click:"
+msgstr "Shift+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:45
-#, fuzzy
 msgid "Alt+Click:"
-msgstr "Comando Alt+Click:"
+msgstr "Alt+Click:"
 
 #: contents/ui/config/ConfigAdvanced.qml:51
 msgid "Advanced Mouse Wheel Actions"
@@ -48,15 +44,20 @@ msgstr "Cooldown de Ctrl+Scroll:"
 
 #: contents/ui/config/ConfigAdvanced.qml:57
 #: contents/ui/config/ConfigGeneral.qml:99
-#: contents/ui/config/ConfigGeneral.qml:127
+#: contents/ui/config/ConfigGeneral.qml:132
 msgid "ms"
 msgstr ""
 
-#: contents/ui/config/ConfigAdvanced.qml:64
+#: contents/ui/config/ConfigAdvanced.qml:63
+#: contents/ui/config/ConfigGeneral.qml:104
+msgid "Recommended cooldown: 0"
+msgstr "Recomendado intervalo 0"
+
+#: contents/ui/config/ConfigAdvanced.qml:69
 msgid "Ctrl+Scroll Up:"
 msgstr "Ctrl+Scroll Up:"
 
-#: contents/ui/config/ConfigAdvanced.qml:69
+#: contents/ui/config/ConfigAdvanced.qml:74
 msgid "Ctrl+Scroll Down:"
 msgstr "Ctrl+Scroll Down:"
 
@@ -117,31 +118,30 @@ msgid "Mouse Wheel"
 msgstr "Roda do mouse"
 
 #: contents/ui/config/ConfigGeneral.qml:97
-#, fuzzy
 msgid "Cooldown:"
-msgstr "Cooldown de Ctrl+Scroll:"
+msgstr "Intervalo:"
 
-#: contents/ui/config/ConfigGeneral.qml:105
+#: contents/ui/config/ConfigGeneral.qml:110
 msgid "Rolar Cima:"
 msgstr ""
 
-#: contents/ui/config/ConfigGeneral.qml:110
+#: contents/ui/config/ConfigGeneral.qml:115
 msgid "Rolar Baixo:"
 msgstr ""
 
-#: contents/ui/config/ConfigGeneral.qml:116
+#: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
 msgstr "Espiar"
 
-#: contents/ui/config/ConfigGeneral.qml:120
+#: contents/ui/config/ConfigGeneral.qml:125
 msgid "Ativar ao focar:"
 msgstr ""
 
-#: contents/ui/config/ConfigGeneral.qml:121
+#: contents/ui/config/ConfigGeneral.qml:126
 msgid "Enable"
 msgstr "Ativar"
 
-#: contents/ui/config/ConfigGeneral.qml:125
+#: contents/ui/config/ConfigGeneral.qml:130
 msgid "Atraso:"
 msgstr ""
 

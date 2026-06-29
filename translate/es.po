@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Power Show Desktop \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 17:19-0300\n"
+"POT-Creation-Date: 2026-06-29 10:17-0300\n"
 "PO-Revision-Date: 2019-10-19 12:36\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -93,32 +93,36 @@ msgid "px"
 msgstr "px"
 
 #: contents/ui/config/ConfigGeneral.qml:56
-msgid "Cor da Borda:"
-msgstr ""
+msgid "Edge Color:"
+msgstr "Color del borde:"
 
 #: contents/ui/config/ConfigGeneral.qml:61
-msgid "Cor ao Focar:"
-msgstr ""
+#, fuzzy
+msgid "Hover Color:"
+msgstr "Color del hover:"
 
 #: contents/ui/config/ConfigGeneral.qml:66
-msgid "Cor ao Clicar:"
-msgstr ""
+msgid "Pressed Color:"
+msgstr "Color al pulsar:"
 
 #: contents/ui/config/ConfigGeneral.qml:71
-msgid "Cor ao Segurar:"
-msgstr ""
+#, fuzzy
+msgid "Long Press Color:"
+msgstr "Color al pulsar:"
 
 #: contents/ui/config/ConfigGeneral.qml:77
 msgid "Click"
 msgstr "Click"
 
 #: contents/ui/config/ConfigGeneral.qml:82
-msgid "Clique Normal:"
-msgstr ""
+#, fuzzy
+msgid "Normal Click:"
+msgstr "Click"
 
 #: contents/ui/config/ConfigGeneral.qml:87
-msgid "Segurar Clique:"
-msgstr ""
+#, fuzzy
+msgid "Long Press:"
+msgstr "Color al pulsar:"
 
 #: contents/ui/config/ConfigGeneral.qml:93
 msgid "Mouse Wheel"
@@ -130,19 +134,19 @@ msgid "Cooldown:"
 msgstr "Desplazarse hacia abajo:"
 
 #: contents/ui/config/ConfigGeneral.qml:110
-msgid "Rolar Cima:"
-msgstr ""
+msgid "Scroll Up:"
+msgstr "Desplazarse hacia arriba:"
 
 #: contents/ui/config/ConfigGeneral.qml:115
-msgid "Rolar Baixo:"
-msgstr ""
+msgid "Scroll Down:"
+msgstr "Desplazarse hacia abajo:"
 
 #: contents/ui/config/ConfigGeneral.qml:121
 msgid "Peek"
 msgstr "Previsualizar"
 
 #: contents/ui/config/ConfigGeneral.qml:125
-msgid "Ativar ao focar:"
+msgid "Enable on hover:"
 msgstr ""
 
 #: contents/ui/config/ConfigGeneral.qml:126
@@ -150,7 +154,7 @@ msgid "Enable"
 msgstr "Activar"
 
 #: contents/ui/config/ConfigGeneral.qml:130
-msgid "Atraso:"
+msgid "Delay:"
 msgstr ""
 
 #: contents/ui/main.qml:458
@@ -411,19 +415,6 @@ msgctxt "@info:tooltip"
 msgid "Run user-defined command when pressed"
 msgstr ""
 
-#~ msgid "Edge Color:"
-#~ msgstr "Color del borde:"
-
-#~ msgid "Hovered Color:"
-#~ msgstr "Color del hover:"
-
-#~ msgid "Pressed Color:"
-#~ msgstr "Color al pulsar:"
-
-#, fuzzy
-#~ msgid "Long Press Color:"
-#~ msgstr "Color al pulsar:"
-
 #~ msgid "Run Command"
 #~ msgstr "Ejecutar comando:"
 
@@ -434,12 +425,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Long Press Command:"
 #~ msgstr "Ejecutar comando:"
-
-#~ msgid "Scroll Up:"
-#~ msgstr "Desplazarse hacia arriba:"
-
-#~ msgid "Scroll Down:"
-#~ msgstr "Desplazarse hacia abajo:"
 
 #~ msgid "Show desktop on hover:"
 #~ msgstr "Mostrar escritorio al pasar el mouse:"
